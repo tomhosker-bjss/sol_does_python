@@ -1,0 +1,9 @@
+[MASTER]
+ignore-patterns=test_*.py
+fail-under=8
+
+[FORMAT]
+max-line-length=80
+
+[MESSAGES CONTROL]
+disable=import-error,missing-module-docstring,missing-class-docstring,missing-function-docstring,missing-final-newline

@@ -1,0 +1,4 @@
+[report]
+show_missing = True
+omit =
+    run_unit_tests_locally.py
