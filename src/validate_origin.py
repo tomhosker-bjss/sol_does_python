@@ -5,11 +5,7 @@ REASON_SEPARATOR = " | "
 ORIGIN_NOT_FOUND = "Origin Not Found."
 
 def lower_if_possible(value: Any) -> Any:
-    try:
-        result = value.lower()
-    except:
-        return value
-    return result
+    pass
 
 def validate_origin(data: DataFrame, reference_data: DataFrame) -> DataFrame:
     origins_lowered = data["origin"].apply(lower_if_possible)
